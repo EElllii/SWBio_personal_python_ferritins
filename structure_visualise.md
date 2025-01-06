@@ -38,3 +38,6 @@ view_Pf.add_representation('surface', opacity=0.15)
 view_Pf 
 
 #Create a view model of K150A/R151A mutant A. fulgidus ferritin 
+view_Afmut=nv.show_file(Afmut_structure)  
+view_Afmut.add_representation ('surface', opacity=0.15) 
+view_Afmut 

@@ -2,7 +2,7 @@
 
 #Import the Entrez module
 from Bio import Entrez
-Entrez.email = 'rx20205@bristol.ac.uk'
+Entrez.email = 'email@bristol.ac.uk' #Use your own email
 
 #Create a record list of the A. fulgidus ferritin accession numbers
 handle_Af = Entrez.esearch(db="protein", term="Archaeoglobus_fulgidus[Orgn] AND ferritin[Protein]", idtype="acc")
