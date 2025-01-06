@@ -20,3 +20,9 @@ h) A_fulgidus_mut_neighbor_search.md
 i) A_fulgidus_mut_interaction.md  
 j) P_furiosus_neighbor_search.md  
 k) P_furiosus_interaction.md
+
+The view models of the proteins are interactive.
+Click and drag with the left mouse button to rotate the view.
+Click and drag with the right mouse button to translocate your view without rotating.
+Left click on sections of the protein to center the view on that point.
+Scroll the mouse wheel to zoom in and out.
