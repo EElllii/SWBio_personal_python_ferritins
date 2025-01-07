@@ -1,4 +1,7 @@
-These Python scripts explore the structure of ferritins from the archaea species Archaeoglobus fulgidus and Pyrococcus furiosus using the Bio.PDB package.
+These Python scripts explore the structure of ferritins from the archaea species Archaeoglobus fulgidus and Pyrococcus furiosus using the Bio.PDB package.  
+This code should first use the entrez Python module to perform a pairwise alignment of the two proteins.  
+Next, the nglview widget is used to create interactive 3D models that can be used to explore the overall structure of the two proteins, as well as a mutated form of A. fulgidus ferritin with a very different structure.  
+Finally, the NeighborSearch function is used to find what interactions may be occurring with key residues from the mutant & wild-type A. fulgidus ferritins, and their equivalents in P. furiosus. Nglview was then used to examine these interactions in 3D.
 
 These scripts were created on a Jupyter Notebook ran through the cloud server ChemCompute. I found that Jupyter notebooks opened through Anaconda were unable to successfully use the nglview widget.  
 https://chemcompute.org/jupyterhub/submit  
