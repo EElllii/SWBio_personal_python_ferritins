@@ -5,7 +5,8 @@
 view_Af=nv.show_file(Af_structure)
 view_Af.add_representation('cartoon')
 view_Af.add_representation('ball+stick', selection=':A/0 and (145 or 146 or 150 or 151)', color='element') #Turns selected residues into a ball and stick representation
-view_Af.add_representation('label', selection=':A.CG/0 and (145 or 146 or 150 or 151)', color='black')     #Adds a label of residue name and number
+view_Af.add_representation('label', selection=':A.CG/0 and (145 or 150 or 151)', color='black')     #Adds a label of residue name and number
+view_Af.add_representation('label', selection='146:A.CB/0', color='black')
 view_Af.add_representation('ball+stick', selection=':H/0 and (111 or 116 or 119)', color='element') 
 view_Af.add_representation('label', selection=':H.CG/0 and (111 or 116 or 119)', color='black')
 view_Af.add_representation('ball+stick', selection=':F/0 and (150 or 151)', color='element')
