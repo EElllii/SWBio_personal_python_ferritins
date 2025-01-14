@@ -8,7 +8,9 @@ Finally, the NeighborSearch function is used to find what interactions may be oc
 These scripts were created on a Jupyter Notebook ran through the cloud server ChemCompute. I found that Jupyter notebooks opened through Anaconda were unable to successfully use the nglview widget.  
 https://chemcompute.org/jupyterhub/submit  
 You should be able to access ChemCompute using your institutional login.  
-The nglview widget should run on ChemCompute without additional install. If it does not work, try running pip install nglview on a command terminal.
+The nglview widget should run on ChemCompute without additional install. If it does not work, try running:   
+pip install nglview   
+on a command terminal.
 
 To Run:
 1) Login to ChemCompute and reach the HOME / JUPYTERHUB / SUBMIT page
