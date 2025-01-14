@@ -1,4 +1,4 @@
-#Performing the neighbor search for P. furiosus (using a different PDB code as the first code used only contained information for one chain and so cannot be used for inter-subunit neighbors)
+#Performing the neighbor search for P. furiosus
 Pf_id = '2x17'     
 Pf_filename = pdb_list.retrieve_pdb_file(Pf_id, pdir='datasets', file_format='mmCif')
 Pf_data = os.path.join('datasets', '2x17.cif')
