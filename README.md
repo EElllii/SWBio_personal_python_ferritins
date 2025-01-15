@@ -1,4 +1,4 @@
-## Investigating the subunit interfaces of ferritin from Archaeoglobus ferritin
+## Investigating the subunit interfaces of ferritin from Archaeoglobus fulgidus
 
 These Python scripts explore the structure of ferritins from the archaea species Archaeoglobus fulgidus and Pyrococcus furiosus using the Bio.PDB package.  
 This code should first use the entrez Python module to perform a pairwise alignment of the two proteins.  
